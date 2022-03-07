@@ -33,3 +33,4 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /* cualification tabs */
 
+/* services modal */ 
