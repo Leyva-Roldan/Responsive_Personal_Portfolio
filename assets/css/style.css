@@ -330,9 +330,9 @@ img {
     font-weight: var(--font-semi-bold);
     color: var(--title-color); 
 }
-.about__info-name {
-    /* font-size: var(--small-font-size);*/ 
-}
+/* .about__info-name {
+    font-size: var(--small-font-size);
+}*/ 
 .about__info-title,
 .about__info-name {
     display: block;
