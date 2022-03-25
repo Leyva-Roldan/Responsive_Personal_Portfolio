@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!--Swiper CSS-->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
 
     <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Responsive Portafolio Website</title>
 </head>
 <body>
@@ -632,7 +634,70 @@
 
 
         <!--portfolio-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
 
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--portfolio 1-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/portfolio_1.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">Sitio responsive cryptocurrency website. Made with HTML and CSS.  </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--portfolio 2-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/portfolio2.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Technical Documentation</h3>
+                            <p class="portfolio__description">Technical documentation made with CSS and HTML with fixed navigation bar on the left side of the page. Responsive.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--portfolio 3-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./assets/img/portfolio3.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Landing Page</h3>
+                            <p class="portfolio__description">Landing page made with CSS and HTML. Responsive.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- add arrows --> 
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+                <!-- Add pagination-->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--proyect in mind -->
+
+
+        <!--testimonial-->
+
+        <!--contact me-->
     </main>
 
     <!--footer-->
@@ -640,7 +705,7 @@
     <!--scroll top-->
 
     <!--swiper JS-->
-    <script src=""></script>
+    <script src="/assets/js/swiper-bundle.min.js"></script>
 
     <!--main js-->
     <script src="./assets/js/main.js"></script>
