@@ -304,6 +304,13 @@ img {
     margin-left: var(--mb-0-5);
     transition: .3s;
 }
+/*.button--white {
+    background-color: #FFF;
+    color: var(--first-color);
+}*/
+.button--white:hover {
+    color: var(--first-color);
+}
 .button--flex {
     display: inline-flex;
     align-items: center;
@@ -657,8 +664,28 @@ img {
 }
 
 /* project in mind */ 
-
-
+.project {
+    text-align: center;
+}
+.project__bg {
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+.project__title {
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+.project__description {
+    margin-bottom: var(--mb-1-5);
+}
+/*.project__title, 
+.project__description{
+    color: #FFF;
+} */ 
+.project__img {
+    width: 230px;
+    justify-self: center;
+}
 /* testimonial */ 
 
 /* contact me */ 
