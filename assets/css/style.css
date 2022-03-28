@@ -223,6 +223,9 @@ img {
     color: var(--first-color);
 }
 /* change background header */ 
+.scroll-header {
+    box-shadow: 0 -1px 4px rgba(0,0,0,.15);
+}
 
 /* home */ 
 .home__container {
