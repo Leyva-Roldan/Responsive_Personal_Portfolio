@@ -219,7 +219,9 @@ img {
     bottom: 0;
 }
 /* active link */
-
+.active-link {
+    color: var(--first-color);
+}
 /* change background header */ 
 
 /* home */ 
